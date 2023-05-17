@@ -30,7 +30,7 @@ def sentence_is_not_in_english(sentences):
 
 
 def translate(sentence, src, dest):
-    time.sleep(1)
+    time.sleep(2)
     translator = Translator()
     return translator.translate(sentence, src=src, dest=dest).text
 
